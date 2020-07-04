@@ -12,14 +12,14 @@ section {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: #2ed573
+    background: pink;
 }
 
 section h1 {
     text-shadow: 2px 5px 5px #2f3542;
     word-spacing: 10px;
     margin-bottom: 15px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
@@ -50,8 +50,10 @@ section h1 {
 
 .details input {
     padding: 10px;
-    background-color: #ff6b81;
-    color: white;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -77,4 +79,40 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+@media screen and (max-width: 1024px)
+{
+
+
+    section h1 {
+        text-shadow: 2px 5px 5px #2f3542;
+        word-spacing: 10px;
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: black;
+    }
+    .centerDiv {
+        width: 100%;
+        height: 450px;
+        box-shadow: 2px 2px 2px 5px white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #57606f;
+        color: white;
+    }
+
+}
+@media screen and (max-width: 768px)
+{
+      section h1 {
+         
+          word-spacing: 5px;
+         text-align: center;
+          font-size: 1.5rem;
+        
+      }
 }
