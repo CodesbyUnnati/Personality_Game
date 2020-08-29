@@ -9,3 +9,7 @@ This is an API based game which tells your personality based on your name.
 <li>If you enter your name again then it will try to show 99% the same personality.</li>
 <br>
 <a href="https://personality-game.netlify.app/">PLAY HERE👋</a>
+<br>
+<br>
+<h3>AUTHOR</h3>
+ <a href="https://linktr.ee/Ping_Unnati"> <b>Unnati Mishra🙎</b></a>
